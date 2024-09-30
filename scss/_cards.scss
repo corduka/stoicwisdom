@@ -1,0 +1,20 @@
+.cards {
+    padding: 80px;
+        a {
+            color: $secondary-color;
+        }
+        .card {
+            box-shadow: 10px 10px 5px $primary-color;
+            .card-link {
+                border: 1px solid $secondary-color;
+                border-radius: 8px;
+                padding: 5px;
+                &:hover {
+                    text-decoration: underline !important; 
+                    transform: scale(1.5);
+                    background-color: $secondary-color;
+                    color: $primary-color;
+                        }
+            }
+        }
+}

@@ -1,8 +1,39 @@
+$primary-color: #d0974c;
+$secondary-color: #000;
+$tertiary-color: white;
+
+
 *{
     margin: auto !important;
     padding: auto;
     box-sizing: border-box;
 }
-h1, h2, h3, .copyright {
+h1, h2, h3 {
     text-align: center;
+    padding: 40px;
+}
+h1 {
+    font-size: 90px bold !important;
+    position: absolute; /* Use absolute positioning */
+    top: 400px; /* Adjust this value to move it up */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for the center alignment */
+    color: $tertiary-color !important;
+    background-color: rgba(185, 185, 185, 0.5);
+    z-index: 1; /* Ensure it stays above the header */
+}
+section {
+    margin: 40px !important;
+    padding: 40px 80px;
+}
+p {
+    padding: 20px;
+    text-align: left;
+}
+a {
+    text-decoration: none !important;
+}
+hr {
+    max-width: 50%;
+    padding: 40px;
 }

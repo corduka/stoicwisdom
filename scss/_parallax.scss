@@ -1,0 +1,25 @@
+.parallax-section {
+    position: relative; /* Create a positioning context for the child elements */
+    height: 600px; /* Set the height of the section */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.parallax {
+    background-image: url('../img/marcus.png'); /* Your parallax image URL */
+    height: 100%; /* Make the parallax fill the section */
+    width: 100%; /* Full width */
+    background-attachment: fixed; /* Parallax effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire section */
+}
+
+.content-parallax {
+    position: absolute; /* Position it relative to the parallax section */
+    top: 75%; /* Center it vertically */
+    left: 50%; /* Center it horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to truly center it */
+    color: $tertiary-color; /* Optional: Make the text stand out against the background */
+    padding: 10px; /* Optional padding */
+    border-radius: 10px; /* Optional: Round the corners */
+}

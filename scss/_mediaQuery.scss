@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+    section {
+        margin: 15px !important;
+        padding: 20px 40px;
+    }
+    p {
+        padding: 20px;
+    }
+    form div input, textarea {
+        max-width: 250px;
+        margin: 0 !important;
+    }
+}
+@media (max-width: 568px) {
+    h1 {
+        font-size: 25px !important;
+    }
+    section {
+        margin: 10px !important;
+        padding: 15px 30px;
+    }
+    p {
+        padding: 14px;
+    }
+    h2 {
+        font-size: 18px !important;
+        padding: 14px;
+    }
+    h3 {
+        padding: 20px;
+    }
+    .cards {
+        padding: 22px 22px 60px 22px;
+        margin: 5px !important;
+    }
+    .card {
+        margin-bottom: 20px !important;
+    }
+    .parallax {
+      background-attachment: scroll; /* Disable the fixed background */
+    }
+    .navbar-toggler, .navbar-collapse {
+        background: linear-gradient(90deg, rgba(2,0,36,0.8) 0%, rgba(227,156,13,0.8) 100%, rgba(0,212,255,0.8) 8%);
+    }
+    .container-fluid, .navbar {
+        padding: 0px !important;
+    }
+}
