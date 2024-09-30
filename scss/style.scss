@@ -6,6 +6,7 @@ section {
 }
 p {
     padding: 20px;
+    text-align: left;
 }
 .logo {
     max-width: 100px;
@@ -40,15 +41,12 @@ h1 {
     transform: translateX(-50%); /* Adjust for the center alignment */
     color: white !important;
     background-color: rgb(185, 185, 185, 0.5);
-    text-align: center; /* Center text */
     z-index: 1; /* Ensure it stays above the header */
 }
 h2 {
-    text-align: center;
     padding: 40px;
 }
 h3 {
-    text-align: center;
     padding: 30px;
 }
 hr {
@@ -78,7 +76,6 @@ hr {
     left: 50%; /* Center it horizontally */
     transform: translate(-50%, -50%); /* Adjust position to truly center it */
     color: white; /* Optional: Make the text stand out against the background */
-    text-align: center; /* Center align the text */
     padding: 10px; /* Optional padding */
     border-radius: 10px; /* Optional: Round the corners */
 }
@@ -121,7 +118,6 @@ footer {
     }
 }
 .copyright {
-    text-align: center;
     font-size: 12px;
 }
 
@@ -203,3 +199,13 @@ footer {
         border-radius: 5%;
         box-shadow: 10px 10px 5px rgba(191, 190, 190, 0.5);
     }
+
+    @media (max-width: 568px) {
+        .parallax {
+          background-attachment: scroll; /* Disable the fixed background */
+        }
+
+      .navbar-toggler, .navbar-collapse {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,156,13,0.7) 100%, rgba(0,212,255,0.7) 8%);
+      }
+      }
