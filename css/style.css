@@ -217,6 +217,7 @@ nav {
 }
 
 form div input, textarea {
+  border: 1px solid #000;
   border-radius: 5px !important;
   margin: 10px !important;
   box-shadow: 8px 8px 4px #d0974c, 0.5;
