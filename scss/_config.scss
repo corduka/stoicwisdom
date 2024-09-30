@@ -20,6 +20,7 @@ h1 {
     transform: translateX(-50%); /* Adjust for the center alignment */
     color: $tertiary-color !important;
     background-color: rgba(185, 185, 185, 0.5);
+    border-radius: 5px;
     z-index: 1; /* Ensure it stays above the header */
 }
 section {
