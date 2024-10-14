@@ -120,7 +120,7 @@ nav {
 }
 
 .parallax {
-  background-image: url("../img/marcus.png"); /* Your parallax image URL */
+  background-image: url("../img/marcus.webp"); /* Your parallax image URL */
   height: 100%; /* Make the parallax fill the section */
   width: 100%; /* Full width */
   background-attachment: fixed; /* Parallax effect */
@@ -211,6 +211,7 @@ nav {
     padding: 0px !important;
   }
 }
+/*DONT FORGET WIREFRAME!!!!!!!!!!*/
 .images {
   border-radius: 5px;
   box-shadow: 10px 10px 5px rgba(191, 190, 190, 0.5);
@@ -231,7 +232,6 @@ form div input:hover, textarea:hover {
 
 .form-button input {
   border: 1px solid #000 !important;
-  color: black !important;
 }
 
 /*# sourceMappingURL=style.css.map */

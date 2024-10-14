@@ -5,6 +5,9 @@
 @import 'cards.scss';
 @import 'mediaQuery.scss';
 
+
+/*DONT FORGET WIREFRAME!!!!!!!!!!*/
+
 .images {
     border-radius: 5px;
     box-shadow: 10px 10px 5px rgba(191, 190, 190, 0.5);
@@ -23,7 +26,6 @@ form div input, textarea {
 }
 .form-button input {
     border: 1px solid $secondary-color !important;
-    color: black !important;
 }
 
     
