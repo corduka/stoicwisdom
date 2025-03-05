@@ -235,3 +235,31 @@ form div input:hover, textarea:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#randomQuotes {
+  font-size: 16px !important;
+}
+#generateBtn {
+  margin: 10px;
+  border: none;
+  background-color: #d0974c;
+  color: white;
+  font-size: 12px;
+}
+@media (max-width: 568px) {
+  #randomQuotes {
+    padding: 5px;
+    margin: 5px;
+  } p {
+    padding: 5px;
+    margin: 0px;
+    font-size: 14px;
+  }
+  #generateBtn {
+    margin: 10px;
+    border: none;
+    background-color: #575757;
+    color: white;
+    font-size: 12px;
+  }
+}
